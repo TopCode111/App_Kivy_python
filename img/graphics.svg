@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.9459894"
+     inkscape:cx="372.04724"
+     inkscape:cy="951.90659"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-page="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1147"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3757"
+       transform="translate(-49.497475,-318.48636)"
+       inkscape:export-filename="C:\Users\Dusan.DESKTOP-PSAMHLQ\Work\NeuronSW\TaggingApp\src\button2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="30"
+         rx="30"
+         y="318.48636"
+         x="49.497475"
+         height="90"
+         width="90"
+         id="rect2985"
+         style="color:#000000;fill:#00abef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         ry="24"
+         rx="24"
+         y="325.81387"
+         x="56.824966"
+         height="75.345001"
+         width="75.345016"
+         id="rect3755"
+         style="color:#000000;fill:none;stroke:#88ddff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\Users\Dusan.DESKTOP-PSAMHLQ\Work\NeuronSW\TaggingApp\src\button2_down.png"
+       transform="translate(40.502525,-318.48636)"
+       id="g3761">
+      <rect
+         style="color:#000000;fill:#51cdff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3763"
+         width="90"
+         height="90"
+         x="49.497475"
+         y="318.48636"
+         rx="30"
+         ry="30" />
+      <rect
+         style="color:#000000;fill:none;stroke:#c3eeff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3765"
+         width="75.345016"
+         height="75.345001"
+         x="56.824966"
+         y="325.81387"
+         rx="24"
+         ry="24" />
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\Users\Dusan.DESKTOP-PSAMHLQ\Work\NeuronSW\TaggingApp\src\button_ok.png"
+       transform="translate(-49.497475,-228.48636)"
+       id="g3783">
+      <rect
+         style="color:#000000;fill:#009812;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3785"
+         width="90"
+         height="90"
+         x="49.497475"
+         y="318.48636"
+         rx="30"
+         ry="30" />
+      <rect
+         style="color:#000000;fill:none;stroke:#00b414;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3787"
+         width="75.345016"
+         height="75.345001"
+         x="56.824966"
+         y="325.81387"
+         rx="24"
+         ry="24" />
+    </g>
+    <g
+       id="g3795"
+       transform="translate(-49.497475,-138.48636)"
+       inkscape:export-filename="C:\Users\Dusan.DESKTOP-PSAMHLQ\Work\NeuronSW\TaggingApp\src\button_nok.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="30"
+         rx="30"
+         y="318.48636"
+         x="49.497475"
+         height="90"
+         width="90"
+         id="rect3797"
+         style="color:#000000;fill:#a30000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         ry="24"
+         rx="24"
+         y="325.81387"
+         x="56.824966"
+         height="75.345001"
+         width="75.345016"
+         id="rect3799"
+         style="color:#000000;fill:none;stroke:#cb0000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\Users\Dusan.DESKTOP-PSAMHLQ\Work\NeuronSW\TaggingApp\src\button_nok_down.png"
+       transform="translate(40.502525,-138.48636)"
+       id="g3801">
+      <rect
+         style="color:#000000;fill:#d60000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3803"
+         width="90"
+         height="90"
+         x="49.497475"
+         y="318.48636"
+         rx="30"
+         ry="30" />
+      <rect
+         style="color:#000000;fill:none;stroke:#ff0505;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3805"
+         width="75.345016"
+         height="75.345001"
+         x="56.824966"
+         y="325.81387"
+         rx="24"
+         ry="24" />
+    </g>
+    <g
+       id="g3807"
+       transform="translate(40.502525,-228.48636)"
+       inkscape:export-filename="C:\Users\Dusan.DESKTOP-PSAMHLQ\Work\NeuronSW\TaggingApp\src\button_ok_down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="30"
+         rx="30"
+         y="318.48636"
+         x="49.497475"
+         height="90"
+         width="90"
+         id="rect3809"
+         style="color:#000000;fill:#00b015;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         ry="24"
+         rx="24"
+         y="325.81387"
+         x="56.824966"
+         height="75.345001"
+         width="75.345016"
+         id="rect3811"
+         style="color:#000000;fill:none;stroke:#00cb17;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g3757-2"
+       transform="translate(-49.497475,-48.48636)"
+       inkscape:export-filename="C:\Users\Dusan.DESKTOP-PSAMHLQ\Work\NeuronSW\TaggingApp\src\button1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="30"
+         rx="30"
+         y="318.48636"
+         x="49.497475"
+         height="90"
+         width="90"
+         id="rect2985-5"
+         style="color:#000000;fill:#cecece;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         ry="24"
+         rx="24"
+         y="325.81387"
+         x="56.824966"
+         height="75.345001"
+         width="75.345016"
+         id="rect3755-2"
+         style="color:#000000;fill:none;stroke:#f3f3f3;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\Users\Dusan.DESKTOP-PSAMHLQ\Work\NeuronSW\TaggingApp\src\button1_down.png"
+       transform="translate(40.502525,-48.48636)"
+       id="g3761-0">
+      <rect
+         style="color:#000000;fill:#e4e4e4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3763-3"
+         width="90"
+         height="90"
+         x="49.497475"
+         y="318.48636"
+         rx="30"
+         ry="30" />
+      <rect
+         style="color:#000000;fill:none;stroke:#ffffff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3765-7"
+         width="75.345016"
+         height="75.345001"
+         x="56.824966"
+         y="325.81387"
+         rx="24"
+         ry="24" />
+    </g>
+    <g
+       id="g4220"
+       transform="matrix(0.37163796,0,0,0.37163796,196.71143,-233.39444)"
+       inkscape:export-filename="C:\Users\Dusan.DESKTOP-PSAMHLQ\Work\NeuronSW\TaggingApp\src\logo.png"
+       inkscape:export-xdpi="91.841484"
+       inkscape:export-ydpi="91.841484">
+      <text
+         y="999.50513"
+         x="388.31146"
+         id="text4222"
+         style="font-size:8.41102982px;fill:#aaaaaa;fill-opacity:1">
+        <tspan
+           id="tspan4224"
+           sodipodi:role="line"
+           y="999.50513"
+           x="388.31146 416.90897"
+           style="font-size:70.09191895px;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr-tb;fill:#aaaaaa;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Edmondsans Regular;-inkscape-font-specification:Edmondsans-Regular">soundware</tspan>
+      </text>
+      <text
+         y="916.79663"
+         x="374.98306"
+         id="text4226"
+         style="font-size:8.41102982px;color:#000000;fill:#be1e4c;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate">
+        <tspan
+           id="tspan4228"
+           sodipodi:role="line"
+           y="916.79663"
+           x="374.98306 484.69092 573.25909 669.48126 722.33057 817.09485"
+           style="font-size:182.23898315px;font-variant:normal;font-weight:500;font-stretch:normal;writing-mode:lr-tb;color:#000000;fill:#be1e4c;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Edmondsans Medium;-inkscape-font-specification:Edmondsans-Medium">Neuron</tspan>
+      </text>
+      <g
+         transform="matrix(0.70091916,0,0,-0.70091916,-191.69774,1585.3161)"
+         id="g4230"
+         style="fill:#a0a0a0;fill-opacity:1">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 467.332,954.275 -25.903,0 0,37.913 25.903,0 0,-37.913 z"
+           style="fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4232" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 513.999,954.275 -25.903,0 0,86.834 25.903,0 0,-86.834 z"
+           style="fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4234" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 560.666,954.275 -25.903,0 0,135.5 25.903,0 0,-135.5 z"
+           style="fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4236" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 607.332,954.275 -25.903,0 0,181.167 25.903,0 0,-181.167 z"
+           style="fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4238" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 653.999,954.275 -25.903,0 0,135.5 25.903,0 0,-135.5 z"
+           style="fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4240" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 700.666,954.275 -25.903,0 0,37.501 25.903,0 0,-37.501 z"
+           style="fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4242" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 747.332,954.275 -25.903,0 0,80.167 25.903,0 0,-80.167 z"
+           style="fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4244" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 793.999,954.275 -25.903,0 0,124.167 25.903,0 0,-124.167 z"
+           style="fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path4246" />
+      </g>
+      <g
+         transform="matrix(0.70091916,0,0,-0.70091916,-191.69774,1585.3161)"
+         id="g4248"
+         style="color:#000000;fill:#be1e4c;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 467.332,912.271 -25.903,0 0,-50.639 25.903,0 0,50.639 z"
+           style="color:#000000;fill:#be1e4c;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4250" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 513.999,912.271 -25.903,0 0,-34.639 25.903,0 0,34.639 z"
+           style="color:#000000;fill:#be1e4c;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4252" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 560.666,912.271 -25.903,0 0,-13.639 25.903,0 0,13.639 z"
+           style="color:#000000;fill:#be1e4c;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4254" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 607.332,912.271 -25.903,0 0,-32.639 25.903,0 0,32.639 z"
+           style="color:#000000;fill:#be1e4c;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4256" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 653.999,912.271 -26.614,0 0,-52.639 26.614,0 0,52.639 z"
+           style="color:#000000;fill:#be1e4c;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4258" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 700.666,912.271 -25.903,0 0,-77.639 25.903,0 0,77.639 z"
+           style="color:#000000;fill:#be1e4c;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4260" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 747.332,912.271 -25.903,0 0,-51.038 25.903,0 0,51.038 z"
+           style="color:#000000;fill:#be1e4c;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4262" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 793.999,912.271 -25.903,0 0,-28.639 25.903,0 0,28.639 z"
+           style="color:#000000;fill:#be1e4c;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4264" />
+      </g>
+    </g>
+  </g>
+</svg>
