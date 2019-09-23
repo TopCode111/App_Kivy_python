@@ -1,0 +1,62 @@
+#:kivy 1.9.1
+#:import _ product_screen
+#:import time time
+#:import random random
+#:import string string
+
+<ProductButton>:
+    text: self.product_id
+    background_normal: '../img/button2.png'
+    background_down: '../img/button2_down.png'
+
+    on_release:
+        start_time = time.time()
+        random_hash = ''.join(random.sample(string.ascii_letters+string.digits, 8))
+
+        app.root.transition.direction = 'left'
+        app.root.current = 'tag_screen'
+        app.root.current_screen.product_id = self.product_id
+        app.root.current_screen.start_time = start_time
+        app.root.current_screen.random_hash = random_hash
+
+        app.root.get_screen('tag_screen').start_time = start_time
+        app.root.get_screen('tag_screen').product_id = self.product_id
+        app.root.get_screen('tag_screen').random_hash = random_hash
+
+
+<ProductScreen>:
+    BoxLayout:
+
+        orientation: 'vertical'
+
+        RelativeLayout:
+            size_hint: None, None
+            pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+
+            Label:
+                text: app.lang('select_product')
+                font_size: 50
+                size_hint_y: None
+                height: 80
+                color: (0.4, 0.4, 0.4, 1)
+                pos: 0, 0
+
+            # Button:
+            #     id: btnExit
+            #     text: "X"
+            #     on_press: app.stop()
+            #     pos_hint: {'center_x': 4, 'center_y': 0.5}
+            #     color: 1, 0, 0, 1
+            #     font_size: root.height / 10
+            #     background_color: 0, 0, 0, 0
+
+        GridLayout:
+            size_hint_y: None
+            height: 600 if root.height > 650 else root.height / 1.2
+            id: button_container
+            padding: [120, 150, 120, 0] if root.height > 650 else 10
+            spacing: 40
+        FloatLayout:
+            Logo:
+                pos: [120, root.height - 120] if root.height > 650 else [15, root.height - 90]
+                width: 190

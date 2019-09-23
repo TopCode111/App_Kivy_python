@@ -1,0 +1,102 @@
+#:kivy 1.9.1
+#:import _ model_results_screen
+#:import time time
+
+
+<ModelResultsScreen>:
+
+    BoxLayout:
+        orientation: 'vertical'
+
+        Label:
+            size_hint_y: None
+            height: root.height / 6
+            text: app.lang("analysis_result") + " " + root.product_id
+            font_size: self.height / 2
+            color: (0.4, 0.4, 0.4, 1)
+
+        AnchorLayout:
+            anchor_x: "center"
+            anchor_y: "center"
+
+            GridLayout:
+                size_hint: None, None
+                rows:2
+                cols:2
+                col_default_width:180
+                col_force_default:True
+                spacing: 10, 10
+                padding: -140, 5
+
+                Label:
+                    size_hint_y: None
+                    height: 30
+                    text: app.lang("result") + ":"
+                    font_size: 30
+                    color: (0.4, 0.4, 0.4, 1)
+
+                Label:
+                    id: label_result
+                    size_hint_y: None
+                    height: 40
+                    text: ""
+                    font_size: 40
+                    color: (0.4, 0.4, 0.4, 1)
+
+                Label:
+                    size_hint_y: None
+                    height: 30
+                    text: app.lang("score") + ":"
+                    font_size: 30
+                    color: (0.4, 0.4, 0.4, 1)
+
+                Label:
+                    id: label_score
+                    size_hint_y: None
+                    height: 40
+                    text: ""
+                    font_size: 40
+                    color: (0.4, 0.4, 0.4, 1)
+
+        Label:
+            size_hint_y: None
+            height: root.height / 12
+            text: app.lang("choose_assessment") + ":"
+            font_size: self.height / 2
+            color: (0.4, 0.4, 0.4, 1)
+
+        BoxLayout:
+            orientation: 'horizontal'
+            padding: 60, 20, 60, 60
+            spacing: 50
+
+            BorderButton:
+                text: app.lang('ok')
+                background_normal: '../img/button_ok.png'
+                background_down: '../img/button_ok_down.png'
+                on_release:
+                    app.insert_label(root.product_id, root.start_time, 'ok', root.random_hash)
+                    root.manager.current = 'product_screen'
+
+            BorderButton:
+                text: app.lang('not_ok')
+                background_normal: '../img/button_nok.png'
+                background_down: '../img/button_nok_down.png'
+                on_release:
+                    app.insert_label(root.product_id, root.start_time, 'nok', root.random_hash)
+                    root.manager.current = 'product_screen'
+
+        FloatLayout:
+            size_hint_y: None
+            height: root.height / 7
+
+            BorderButton:
+                pos: 20, 20
+                size_hint_x: None
+                width: self.height * 2
+                text: app.lang('back')
+                on_release:
+                    root.manager.transition.direction = 'right'
+                    root.manager.current = 'product_screen'
+            Logo:
+                pos: root.width - 220, 10

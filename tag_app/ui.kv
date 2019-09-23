@@ -1,0 +1,16 @@
+#:kivy 1.9.1
+#:import _ ui
+
+<Logo>:
+    size_hint_x: None
+    size_hint_y: None
+    width: 200
+    Image:
+        source: '../img/logo.png'
+        allow_stretch: True
+
+<BorderButton>:
+    font_size: self.height / 4
+    border: [30, 30, 30, 30]
+    background_normal: '../img/button1.png'
+    background_down: '../img/button1_down.png'

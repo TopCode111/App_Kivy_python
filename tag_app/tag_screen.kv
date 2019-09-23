@@ -1,0 +1,89 @@
+#:kivy 1.9.1
+#:import _ tag_screen
+#:import Animation kivy.animation.Animation
+
+
+<TagScreen>:
+
+    BoxLayout:
+        orientation: 'vertical'
+
+        Label:
+            size_hint_y: None
+            # height: root.height / 6
+            text: app.lang('tag_product') + ' ' + root.product_id
+            # font_size: self.height / 2
+
+            height: 80
+            font_size: 50
+            color: (0.4, 0.4, 0.4, 1)
+
+        Visualizer:
+            id: visualizer
+            size_hint_y: None
+            height: root.height / 6
+
+        BoxLayout:
+            orientation: 'horizontal'
+            padding: [120, 130, 120, 200] if root.height > 650 else [60, 60, 60, 120]
+            spacing: 50
+            font_size: 30
+            # padding: [120, 150, 120, 0] if root.height > 650 else 10
+
+            BorderButton:
+                text: app.lang('ok')
+                font_size: '20sp'
+                background_normal: '../img/button_ok.png'
+                background_down: '../img/button_ok_down.png'
+                on_release:
+                    app.insert_label(root.product_id, root.start_time, 'ok', root.random_hash)
+                    root.manager.current = 'product_screen'
+
+            BorderButton:
+                text: app.lang('not_ok')
+                background_normal: '../img/button_nok.png'
+                background_down: '../img/button_nok_down.png'
+                on_release:
+                    app.insert_label(root.product_id, root.start_time, 'nok', root.random_hash)
+                    root.manager.current = 'product_screen'
+
+            BorderButton:
+                id: btn_analyse
+                text: app.lang('analyse')
+                background_normal: '../img/button_analyse.png'
+                background_down: '../img/button_analyse_down.png'
+                on_release:
+                    root.manager.get_screen('model_results_screen').start_time = root.start_time
+                    root.manager.get_screen('model_results_screen').product_id = root.product_id
+                    root.manager.get_screen('model_results_screen').random_hash = root.random_hash
+                    root.manager.get_screen('model_results_screen').sound_name = root.sound_name
+                    root.manager.current = 'model_results_screen'
+
+        FloatLayout:
+            size_hint_y: None
+            height: root.height / 7
+
+            BorderButton:
+                pos: 20, 20
+                size_hint_x: None
+                width: self.height * 2
+                text: app.lang('back')
+                on_release:
+                    root.manager.transition.direction = 'right'
+                    root.manager.current = 'product_screen'
+            Logo:
+                pos: root.width - 220, 10
+
+<Visualizer>:
+    canvas:
+        Color:
+            rgb: 1, 1, 0.7
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Label:
+        font_size: self.height / 3
+        bold: True
+        color: (1.0, 0.4, 0.4, 1)
+
+        text: "%s - %s:%s" % (app.lang('recording'), self.parent.minutes, self.parent.seconds)

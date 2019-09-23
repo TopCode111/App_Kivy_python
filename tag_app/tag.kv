@@ -1,0 +1,20 @@
+#:kivy 1.9.1
+
+#:include ui.kv
+#:include product_screen.kv
+#:include tag_screen.kv
+#:include model_results_screen.kv
+
+#:import ST kivy.uix.screenmanager.SlideTransition
+
+<TagAppScreenManager>:
+    transition: ST(duration=0.2)
+    ProductScreen:
+        id: product_screen
+        name: 'product_screen'
+    ModelResultsScreen:
+        id: model_results_screen
+        name: 'model_results_screen'
+    TagScreen:
+        id: tag_screen
+        name: 'tag_screen'
