@@ -1,0 +1,12 @@
+{
+  "products": [
+    "1: 1Zone/LHD", "5: 4+2Zone/LHD", "9: GM4H/LHD",
+    "2: 1Zone/RHD", "6: 4+2Zone/RHD", "10: GM4H/RHD",
+    "3: 3Zone/LHD", "7: 3+2Zone/LHD", "11: GM5/LHD ",
+    "4: 3Zone/RHD", "8: 3+2Zone/RHD", "12: GM5/RHD "
+  ],
+  "language": "lang_cz",
+  "db_path": "/var/local/db/",
+  "records_path": "/var/local/records/",
+  "record_device": "plughw:CARD=audioinjectoroc,DEV=0"
+}
